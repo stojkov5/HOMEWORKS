@@ -1,38 +1,35 @@
-let nameUser = "Aleksandar";
+//1
+let temperature = 20;
 
-console.log(typeof nameUser);
-
-const pi = 3.14;
-
-console.log(typeof pi);
-
-let colorPicker = ["Red", "Blue", "Green"];
-
-console.log(typeof colorPicker);
-console.log(colorPicker[0]);
-console.log(colorPicker[0], colorPicker[1], colorPicker[2]);
-
-let personInfo = {
-  personName: "Aleksandar",
-  personPhone: 78524931,
-  personAdress: "Solunska br.62",
-  personEMBG: 406000494506,
-};
-
-console.log(typeof personInfo.personAdress);
-
-{
-  let numberOne = 2;
- 
-
-  {
-    let numberTwo = 3;
-    let proizvod;
-    {
-      let numberThree = 10;
-      resultt = numberOne * numberTwo * numberThree;
-    }
-    
-    console.log(resultt);
-  }
+if (temperature > 25) {
+  console.log("It's hot");
+} else if (temperature >= 16) {
+  console.log("It's warm.");
+} else if (temperature >= 0) {
+  console.log("It's cold.");
+} else {
+  console.log("It's freezing!");
 }
+
+//2
+
+let age = 30;
+
+if (age >= 60) {
+  console.log("Senior");
+} else if (age >= 20) {
+  console.log("Adult");
+} else if (age >= 13) {
+  console.log("Teenager");
+} else if (age >= 3) {
+  console.log("Child");
+} else {
+  console.log("Infant");
+}
+
+//3
+
+let evenNumber = 7;
+
+let test = evenNumber % 2 == 0 ? "Even" : "Odd";
+console.log(test);
