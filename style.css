@@ -1,70 +1,71 @@
 body {
-  overflow: auto !important;
-  width: 100%;
-  height: 100vh;
-  background-image: url(images/background\ 2.jpg);
-}
-
-main {
-  width: 100%;
-  height: 100%;
-}
-.main-card {
-  background-color: #1f1f1f;
-}
-.navbar-brand {
-  font-size: 3rem;
-  font-weight: 500;
-  font-style: oblique;
-}
-.navbar-nav {
-  font-size: 1.5rem;
-  font-style: oblique;
-}
-
-.card {
-  height: 100%; /* Ensure all cards are the same height */
-}
-.img-fluid {
-  width: 100% !important;
-}
-.card-title {
-  color: white;
-  font-size: 3.5rem;
-  font-style: oblique;
-}
-.card-container:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-
-.year {
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  font-style: oblique;
-}
-.features {
-  font-size: 1.5rem;
-  font-weight: 300;
-  font-style: oblique;
-}
-.price {
-  font-size: 2rem;
-  font-weight: bolder;
-  font-style: oblique;
-}
-
-.buttons {
-  font-size: 1.5rem;
-  font-style: oblique;
-  font-weight: bold;
-  padding: 0.5rem 2rem;
-}
-
-.nav-link {
-  color: white;
-}
-.dropdown-item {
-  color: white;
-}
+    overflow: auto !important;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background\ 2.jpg);
+  }
+  
+  main {
+    width: 100%;
+    height: 100%;
+  }
+  .main-card {
+    background-color: #1f1f1f;
+  }
+  .navbar-brand {
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: oblique;
+  }
+  .navbar-nav {
+    font-size: 1.5rem;
+    font-style: oblique;
+  }
+  
+  .card {
+    height: 100%; /* Ensure all cards are the same height */
+  }
+  .img-fluid {
+    width: 100% !important;
+  }
+  .card-title {
+    color: white;
+    font-size: 3.5rem;
+    font-style: oblique;
+  }
+  .card-container:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  .year {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  .features {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: oblique;
+  }
+  .price {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  
+  .buttons {
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  .dropdown-item {
+    color: white;
+  }
+  
