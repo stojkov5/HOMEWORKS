@@ -1,0 +1,19 @@
+.error-message {
+  color: red;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem !important;
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 5px 10px;
+  align-items: center;
+  border-radius: 5px;
+
+  color: white;
+}
